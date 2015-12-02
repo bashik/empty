@@ -1,0 +1,11 @@
+2015/12/01 17:43:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\MAMP\htdocs\empty\include\web\CController.php:483
+Stack trace:
+#0 C:\MAMP\htdocs\empty\include\web\CController.php(270): CController->missingAction('js')
+#1 C:\MAMP\htdocs\empty\include\web\CWebApplication.php(282): CController->run('js')
+#2 C:\MAMP\htdocs\empty\include\web\CWebApplication.php(141): CWebApplication->runController('pages/js/bootst...')
+#3 C:\MAMP\htdocs\empty\include\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\MAMP\htdocs\empty\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/empty/pages/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/empty/pages/portfolio
+---

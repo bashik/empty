@@ -1,0 +1,320 @@
+@CHARSET "UTF-8";
+/*--preset----------------------------------------------------------------------*/
+body
+{
+    margin: 0;
+    padding: 0;
+}
+div, table, img, td, th, body, p, ol, ul, h1, h2, h3, input, textarea
+{
+    margin: 0;
+    padding: 0;
+}
+table
+{
+    border-collapse: collapse;
+}
+a:link
+{
+    text-decoration: underline;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+/*СТАНДАРТНЫЕ*/
+h2
+{
+    padding: 20px 0;
+}
+
+.row
+{
+    overflow: hidden;
+}
+
+/*ПОСТРАНИЧНАЯ НАВИГАЦИЯ*/
+
+
+/*КОММЕНТАРИЙ*/
+.comment-date-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+}
+
+.comment-date-input
+{
+    display: block;
+    float: left;
+    width: 230px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.comment-name-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+}
+
+.comment-name-input
+{
+    display: block;
+    float: left;
+    width: 230px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+.comment-text-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+}
+
+.comment-text-textarea
+{
+    display: block;
+    float: left;
+    min-width: 230px;
+    max-width: 230px;
+    min-height: 100px;
+    max-height: 100px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*ГЛАВНАЯ*/
+.home-index
+{
+    margin: 0 0 20px 20px;
+}
+
+.comment-submit
+{
+    margin: 10px 0 10px 140px;
+    background-color: #554D4D;
+    color: #ECA86B;
+    border: none;
+    padding: 5px;
+
+}
+
+/*КОНТАКТЫ*/
+.contact
+{
+    /*background-color: #000099;*/
+    width: 300px;
+    float: right;
+    margin: 0 40px 0 0;
+
+
+}
+
+.contact span
+{
+    color: #639900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+    text-shadow: 1px 1px #f9f9f9, 2px 2px #32231c;
+}
+
+.contact h4
+{
+    color: #cccccc;
+    font-size: 20px;
+    padding-left: 35px;
+    text-decoration: underline;
+}
+
+.contact p
+{
+    margin: 15px;
+    text-shadow: 3px 3px 5px black;
+
+
+}
+
+.form-contact
+{
+
+    width: 300px;
+    margin-left: 20px;
+
+
+}
+
+.contact-date-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+}
+
+.contact-date-input
+{
+    display: block;
+    float: left;
+    width: 230px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-name-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+}
+
+.contact-name-input
+{
+    display: block;
+    float: left;
+    width: 230px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-phone-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+}
+
+.contact-phone-input
+{
+    display: block;
+    float: left;
+    width: 230px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-email-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+}
+
+.contact-email-input
+{
+    display: block;
+    float: left;
+    width: 230px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-messages-label
+{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 10px 0 0 30px;
+    color: #f6f6f6;
+    font-family: Arial;
+
+}
+
+.contact-messages-textarea
+{
+    display: block;
+    float: left;
+    min-width: 230px;
+    max-width: 230px;
+    min-height: 100px;
+    max-height: 100px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-submit
+{
+
+    margin: 15px 145px 20px 0;
+    padding: 5px;
+    background-color: #554D4D;
+    border: none;
+    color: #ECBA89;
+}
+
+.hovergallery img
+{
+    width: 200px;
+    height: 200px;
+    border:2px solid #ECA86B;
+    margin:  0 7px 10px;
+    -o-transform:scale(0.8);
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+
+
+
+}
+
+.hovergallery img:hover
+{
+    -webkit-transform:scale(2.7);
+    -moz-transform:scale(2.7);
+    -o-transform:scale(2.7);
+    border:2px solid #554D4D;
+    opacity: 1;
+    box-shadow:0px 0px 30px gray;
+    -webkit-box-shadow:0px 0px 30px gray; /*Webkit: тени*/
+    -moz-box-shadow:0px 0px 30px gray; /*Mozilla: тени*/
+
+
+
+}
+
+.hovergallery
+{
+    margin: 5px 0 0 20px;
+}
+
+
+
+
+
+
+
+
